@@ -1,0 +1,152 @@
+.tombol {
+    padding: 8px 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.birumuda {
+    background-color: #8cd4fe00;
+    border: 1px solid #212738;
+}
+.birumuda:hover {
+    cursor: pointer;
+    background-color: #212738;
+    color: white;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.801);
+}
+.birutua {
+    background-color: #212738;
+    color: white;
+    border: 1px solid #212738;
+    margin-left: 10px;
+}
+.birutua:hover {
+    cursor: pointer;
+    background-color: #212738;
+    box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.801);
+}
+.item {
+    border-left: 4px solid #212738;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(194, 194, 194);
+    margin-bottom: 20px;
+}
+.item:hover {
+    box-shadow: 4px 4px 20px 0px #21273828;
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(236, 236, 236);
+}
+a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin:0;
+}
+.ipaddress {
+    font-size: 12px;
+    background-color: #f97068;
+    color:white;
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+}
+.ip {
+    background-color: #2f4788;
+}
+.MT {
+    font-size: 20px; 
+    font-weight: bolder; 
+    color: #212738;
+    padding-top: 5px;
+}
+.img-mppt {
+    width: 20%;
+    float: left;
+}
+
+.content-title {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.content-header {
+    margin: 30px 0px;
+    background-color: #8cd5fe;
+    box-shadow: 0px 0px 80px 0px #64656680;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: #212738;
+}
+/* AP Server */
+.content {
+    background-color: #edf2ef; 
+    border: 1px solid rgb(194, 194, 194);
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img-ap {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.ap-name {
+    font-size: 10px;
+    color: #212738;
+    background-color: #fcbf49;
+    border: 1px solid #fcbf49;
+    border-radius: 0px 0px 9px 9px;
+    display: block;
+    text-align:center;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.atas {
+    margin-top: 15px;
+}
+.location {
+    display: block;
+    border-bottom: 4px solid #8cd5fe;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom:5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.infinet {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.content:hover {
+    position: relative;
+    bottom: 3px;
+    transition: all 0.8s;
+    opacity: 1;
+    box-shadow: 0px 0px 80px rgba(136, 136, 136, 0.52);
+}
+.tengah {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cont-info {
+    border: 1px solid #f97068;
+    background-color: #fdd4d1d8;
+    color: #f97068;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Railway";
+}
+.aruba-link {
+    margin: 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+}

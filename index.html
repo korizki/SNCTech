@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SNC Technology</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href="css/materialize.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
+    <link rel='stylesheet' type='text/css' href='css/fontawesome.min.css'>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="manifest" href="/manifest.json">
+    <meta name=" theme-color" content="#212738"/>
+    <!-- Memasang icon di apple -->
+    <link rel="apple-touch-icon" href="assets/icon/logo.png">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/assets/icon/logo.png">
+
+</head>
+<body>
+<!-- Navigasi -->
+<nav class="teal lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="#home" class="brand-logo" id="logo-container"><img style="height: 55px; padding-top:5px;" src="assets/icon/SNC.png"></a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="fas fa-arrow-circle-right"></i></a>
+
+        <ul class="topnav hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+</nav>
+<!-- Bagian Body Halaman -->
+<div class="container" id="body-content"></div>
+
+<footer>
+    <div class="footer row">
+        <div class="col s12 l4">
+            <div class="content-footer">
+                <p class="footer-title">Tentang Perusahaan</p>
+                <p class="footer-detail"><i class="fa fa-building"></i>PT. Satnetcom</p>
+                <p class="footer-detail"><i class="fa fa-map-marked-alt"></i>Jalan Ruhui Rahayu, Balikpapan.</p>
+                <p class="footer-detail"><i class="fa fa-map"></i>Office at PT. Bukit Asam Tbk. Site Tanjung Enim</p>
+                <p class="footer-detail"><i class="fa fa-globe-asia"></i>www.satnetcom.com</p>
+            </div>
+        </div>
+        <div class="col s12 l4">
+            <div class="content-footer" id="developer">
+                <p class="footer-title">Developer</p>
+                <p class="footer-detail"><i class="fa fa-user-circle"></i>Rizki Ramadhan</p>
+                <p class="footer-detail"><i class="fa fa-laptop-code"></i>Engineer at PT. Satnetcom</p>
+                <a href="#" style="margin-right: 10px;" class="tombol biruout"><i class="fa fa-envelope"></i>Mail Me</a>
+                <a href="#" class="tombol biruout"><i class="fa fa-phone-square-alt"></i>Contact Me</a>
+            </div>
+        </div>
+        <div class="col s12 l4">
+            <div class="content-footer">
+                <p class="footer-title">Credits</p>
+                <a href="https://www.freepik.com/vectors/people" class="tombol biruout"><i class="fa fa-images"></i>Macrovector</a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<!-- Import Script Javascript -->
+<script src='js/materialize.min.js'></script>
+<script src="js/nav.js"></script>
+<!-- Registrasi Service Worker -->
+<script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+            navigator.serviceWorker
+            .register("/service-worker.js")
+            .then(function() {
+                console.log("Pendaftaran Service worker berhasil!");
+            })
+            .catch(function() {
+                console.log("Pendaftaran Service Worker gagal");
+            }); 
+        });
+    } else {
+        console.log("ServiceWorker belum didukung browser ini.");
+    }
+</script>
+</body>
+</html>

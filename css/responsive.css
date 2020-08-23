@@ -1,0 +1,62 @@
+/* ========================== Layar Smartphone */
+@media only screen and (max-width:435px) {
+/* MPPT */
+.content-header {
+    margin: 15px 0px;
+}
+
+.content-header img {
+    width: 120px;
+    float: left;
+}
+.content-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.content-sub {
+    font-size: 10px;
+    text-align: justify;
+    font-family: 'Raleway';
+}
+.tombol {
+    display: inline-block;
+    padding: 11px 20px;
+    font-size: 10px;
+    font-family: 'Raleway';
+}
+.row a {
+    padding: 10px;
+}
+.MT {
+    font-size: 12px;
+}
+.ipaddress {
+    font-size: 10px;
+}
+.img-mppt {
+    display: none;
+}
+.content-footer {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-mppt {
+    display: none;
+}
+.content, .row .atas, .tengah{
+    margin-bottom: 0px;
+}
+.aruba-link {
+    font-size: 10px;
+}
+#developer {
+    display: none;
+}
+} 
+@media only screen and (max-width:670px) {
+    .img-mppt {
+        display: none;
+    }
+}
+
